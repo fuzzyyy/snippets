@@ -1,1 +1,16 @@
-python -m venv .venv
+# python -m venv .venv
+##########################3
+# create virtual env
+# in e.g. $HOME/projects/PROJECT_DIR
+# my zsh setup can activate venv automatically on directory entry if the venv
+# has the same name as project directory
+mkvirtualenv PROJECT_DIR
+
+# list venvs
+workon
+
+# activate venv
+workon VENV_NAME
+
+# remove venv
+rmvirtualenv VENV_NAME
