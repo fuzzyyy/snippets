@@ -1,1 +1,1 @@
-ssh-keygen -t rsa -b 4096 -o -C "YOUR_EMAIL"
+ssh-keygen -t rsa -b 4096 -C "YOUR_EMAIL"
