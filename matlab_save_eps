@@ -1,0 +1,10 @@
+figure
+plot(cas, kulicka)
+grid on
+hold on
+plot(cas, ref)
+xlim([0 10])
+xlabel("cas t [s]")
+ylabel("poloha kulicky x [cm]")
+legend("Skokova odezva", "Vstupni skok")
+print(gcf, "-depsc", "LeadLag_skok_0_15_skokovaOdezva.eps")
