@@ -1,1 +1,4 @@
+# case sensitive
 find START_LOCATION -name FILE_NAME
+# case insensitive
+find START_LOCATION -iname FILE_NAME
